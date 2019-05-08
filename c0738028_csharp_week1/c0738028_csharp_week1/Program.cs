@@ -9,7 +9,16 @@ namespace c0738028_csharp_week1
             int sum = 0;
             int start = 314;
             int end = 102;
-            for (int i= start;)
+            Console.WriteLine("Sum of the numbers");
+            for (int i= start; i< end; i--)
+            {
+
+               sum += start;
+               Console.WriteLine(start);
+            }
+        
+            Console.ReadLine();
         }
+      
     }
 }
